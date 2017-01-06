@@ -1,0 +1,9 @@
+Install JUnit:
+cd ~
+mkdir JUnit
+cd JUnit
+curl -OL https://github.com/downloads/junit-team/junit/junit-4.10.jar
+sudo vim ~/.bashrc
+Copy and paste:
+  export JUNIT_HOME=~/JUnit/
+  export CLASSPATH=$CLASSPATH:$JUNIT_HOME/junit-4.10.jar  
